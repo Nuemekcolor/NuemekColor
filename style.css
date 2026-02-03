@@ -14,3 +14,21 @@ body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif;line-height:1.5}
 
 /* จอเล็กให้ไหลลงมาเอง */
 @media (max-width:900px){ .grid{grid-template-columns:1fr} }
+
+.hero{
+  display:flex;
+  gap:16px;
+  margin:24px 0;
+}
+
+.hero img{
+  width:100%;
+  max-width:540px;
+  border-radius:12px;
+}
+
+@media (max-width:900px){
+  .hero{
+    flex-direction:column;
+  }
+}
