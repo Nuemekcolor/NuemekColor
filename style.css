@@ -12,6 +12,9 @@ body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif;line-height:1.5}
 .card{border:1px solid #ddd;border-radius:12px;padding:16px}
 .footer{padding:16px;text-align:center;color:#666;border-top:1px solid #ddd}
 
+/* จอเล็กให้ไหลลงมาเอง */
+@media (max-width:900px){ .grid{grid-template-columns:1fr} }
+
 .hero{
   display:flex;
   gap:16px;
@@ -29,6 +32,3 @@ body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif;line-height:1.5}
     flex-direction:column;
   }
 }
-
-/* จอเล็กให้ไหลลงมาเอง */
-@media (max-width:900px){ .grid{grid-template-columns:1fr} }
